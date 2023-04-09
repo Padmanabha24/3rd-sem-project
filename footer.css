@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+} */
+
+/* body {
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    min-height: 100vh;
+} */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    padding: 50px 100px;
+    background-color: aliceblue;
+}
+
+footer .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+footer .container .sec h2 {
+    position: relative;
+    color: blueviolet;
+    margin-bottom: 15px;
+}
+
+footer .container .sec h2::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: salmon;
+}
+
+footer .container .sec p {
+    color: black;
+}
+
+.sci {
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-gap: 10px;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: rgb(185, 114, 251);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: solid rgb(6, 0, 0) 1px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0);
+}
+
+.sci li a:hover {
+    background-color: rgb(115, 244, 132);
+}
+
+.sci li a .fa-brands {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.quicklinks {
+    position: relative;
+}
+
+.quicklinks li {
+    list-style: none;
+}
+
+.quicklinks li a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quicklinks li a:hover {
+    color: blue;
+}
+
+.info {
+    position: relative;
+}
+
+.info li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+
+.info li span:nth-child(1) {
+    color: green;
+    font-size: 20px;
+}
+
+.info li span {
+    color: black;
+}
+
+.info a {
+    color: black;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: blue;
+}
+
+.copyrightText {
+    width: 100%;
+    background: antiquewhite;
+    padding: 8px 100px;
+    text-align: center;
+}
+
+.read{
+    margin-top: 5px;
+}
+
+.read a{
+    text-decoration: none;
+}
+.read button{
+    color: rgb(0, 0, 0);
+    background: rgb(185, 114, 251);
+    border-radius: 3px;
+    border: solid black 1px;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+}
+.read button:hover{
+    background-color: rgb(115, 244, 132);
+}
+.about p{
+  text-decoration: none;
+}
